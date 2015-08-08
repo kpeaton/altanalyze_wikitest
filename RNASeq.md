@@ -1,0 +1,9 @@
+## Introduction ##
+
+RNA sequencing data or RNA-seq, produced from whole transcriptome shot-gun sequencing, provides digital reads for short sequences from the transcriptome of cells or tissues. Several technologies are available for the amplification and detection of RNA-seq reads, including single read, paired-end and pulse-read sequences.
+
+## Analysis in AltAnalyze ##
+
+AltAnalyze version 2.0 provides new methods for analyzing RNA-seq data, post genomic/transcriptome alignment. Although the initial processing of RNA-seq data is distinct from microarray data in AltAnalyze, RNA-seq data is analyzed using the same downstream algorithms as junction sensitive splicing arrays (e.g., ASPIRE and Linear Regression reciprocal junction analyses and splicing-index analyes) for both known and novel exons and junctions. Databases for over 50 species are currently built and maintained by the AltAnalyze staff, however, users can collaborate with the AltAnalyze development team or [customize AltAnalyze source code](BuildingDatabases.md) to add compatibility for new species.
+
+To analyze your RNA-seq data, you must first align your read sequences for each experimental sample to junctions and/or exons using external software. These packages include [HMMSplicer](http://derisilab14.ucsf.edu/software/hmmsplicer/), [TopHat](TopHat.md) and [SpliceMap](http://www.stanford.edu/group/wonglab/SpliceMap/). These packages produce junction alignments and corresponding junction counts in the form of a [BED format file](http://genome.ucsc.edu/FAQ/FAQformat#format1) (e.g., junction.bed). Exon expression values can be obtained for known and junction identified exons from BAM files using AltAnalyze and [BEDTools](BEDTools.md). These files are used as input to AltAnalyze, similar to Affymetrix CEL files. For more information, see the [AltAnalyze Analysis Tutorial](Tutorial_AltExpression_RNASeq.md) or associated [manual](http://altanalyze.org/AltAnalyze_Manual.pdf).

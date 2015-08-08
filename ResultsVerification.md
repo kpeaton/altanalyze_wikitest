@@ -1,0 +1,7 @@
+### _Which results should I validate?_ ###
+
+_**Answer**_: As exon and junction expression analyses can produce hundreds to thousands of predictions, selecting targets for validation is a challenge. While one can simply select targets with the largest alternative exon scores or smallest p-values, to enrich for selection of biologically significant predictions we suggest the following strategy:
+
+Focus on exons that have (A) known evidence of alternative splicing and/or (B) predicted microRNA binding sites regulated, (C) affected protein domains or motifs that indicated interesting putative functional differences between regulated isoforms, (D) do NOT co-occur with several other alternative exon predictions across that gene and (E) could be readily verified by RT-PCR using simple strategies (e.g., amplification of both isoforms from a single PCR primer pair).
+
+We haven't performed more extensive analyses of all regulated exons/junctions, however, we hope to establish collaborations in the near future to compare exon array, junction array and RNA-seq data in AltAnalyze collected for the sample biological samples. Such analyses should provide some reasonable sensitivity and specificity measures.

@@ -1,0 +1,1 @@
+"YourExperiment" refers to the user chosen name for a particular experiment. This name is typically assigned by the user when choosing CEL files to analyze (e.g., hESC\_differentiation).

@@ -1,0 +1,1 @@
+"YourComparison" refers to the two groups, each assigned by a user, that indicate a comparison. For example, if there are two groups in a user analysis (Cancer and Benign), then the group designated as experimental and the group listed as control by the user will be given the comparison name Cancer\_vs\_Benign.

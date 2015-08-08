@@ -1,0 +1,9 @@
+# Performing GO-Elite within AltAnalyze #
+
+GO-Elite is a program for determining pathway and Gene Ontology over-representation results for user gene lists. In AltAnalyze, the user has the option to run GO-Elite on identified differentially expressed and alternatively expressed genes. The user can choose for AltAnalyze to immediately calculate these statistics or wait until the initial analysis is over. The second choice is described in detail here, since it allows the two analyses to be run separately, given the lengthy time it can take for GO-Elite to run.
+
+  * ([AltAnalyze: Summary Results](http://altanalyze.org/image/ResultStatus.jpg)) After AltAnalyze has finished calculating it's gene expression and alternative exon results, the user will have the choice to "Quit" or "Continue" from the black background status screen. Select "Continue".
+  * ([AltAnalyze: Perform Additional Analyses](http://altanalyze.org/image/PerformAdditionalAnalyses.jpg)) Choose the option "Perform GO/Pathway Analysis on Resutls" and "Continue"
+  * ([AltAnalyze: Pathway Analysis Parameters](http://altanalyze.org/image/PathwayAnalysis.jpg)) Keep the defaults the same for this window and select "Continue". This window has filters for gene expression comparison statistics and pathway/GO over-representation filtering.
+  * ([GO-Elite Analysis](http://altanalyze.org/image/GE-ResultsWin.jpg)) The status window for GO-Elite will appear that looks identical to that for AltAnalyze. This analysis will take up to 2 hours depending on the number of genes changed, for 2000 permutations. Once finished, a new popup window will appear informing you that the analysis is finished.
+  * ([GO-Elite Results](http://altanalyze.org/image/GE_SummaryResullts.jpg)) Once finished, pathway statistics for the last set of files analyzed (these will be the gene expression when analyzing alternative exon data) will be displayed. The analysis at this point is complete.

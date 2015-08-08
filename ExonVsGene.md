@@ -1,0 +1,3 @@
+### _What is the difference between exon-level and gene-level alternative exon results?_ ###
+
+_**Answer**_: The exon-level alternative exon results provide alternative exon predictions for alternatively expressed probesets. The associated annotations correspond specifically to the regulated probeset. In the gene-level file, these exon-level results are simply summarized for each gene. For example, if then probesets for a gene were predicted to be alternatively expressed, then a single entry for that gene will be displayed in the gene-level file, with the largest alternative exon fold shown (absolute value), the smallest p-values, all alternative [exon IDs](ExonRegionIDs.md) and all associated exon-event, protein, domain and microRNA binding site annotations.

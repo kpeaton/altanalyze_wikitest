@@ -1,0 +1,7 @@
+### Introduction ###
+
+The Affymetrix Gene 1.0 array contains probes each exon of mammalian genes, with one or more probes per probeset. This array type is currently available for human, mouse and rat genomes (in addition to custom arrays). Relative to the Affymetrix Exon 1.0 array, this array examines a more conservative set of known exons, which includes known alternative exons. Relative to previous generation 3' biased arrays, the method of cDNA preparation and amplification is relatively unbiased.
+
+### AltAnalyze Supported Analyses ###
+
+AltAnalyze allows users to select gene array CEL files or pre-normalized expression files to summarize gene expression levels (Ensembl genes), identify alternative exons (e.g., FIRMA, splicing-index, MiDAS), annotate these exons in the context of alternative splicing annotations (e.g., alternative-splice sites, cassette-exons, intron retention) and assess the functional impact of alternative exon expression (e.g., associated proteins, domains, miRNA binding sites). Over-representation of pathways, GO-terms, domains/motifs and miRNA binding sites is also supported. These results can be examined in the produced spreadsheets or visualized in the associated software DomainGraph, by exporting Exon 1.0 array probesets with overlapping genomic coordinates.
